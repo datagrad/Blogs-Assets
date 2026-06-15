@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+  <rect width="800" height="220" fill="#f8fafc" rx="16"/>
+  <text x="400" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">THE VERTEX AI LIFECYCLE FLOW</text>
+  
+  <!-- Step 1 -->
+  <g transform="translate(40, 70)" filter="url(#shadow)">
+    <rect width="130" height="100" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="65" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">🪴</text>
+    <text x="65" y="65" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Model Selection</text>
+    <text x="65" y="82" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Gemini, Gemma, etc.</text>
+  </g>
+  
+  <polygon points="190,115 198,120 190,125" fill="#94a3b8"/>
+  
+  <!-- Step 2 -->
+  <g transform="translate(220, 70)" filter="url(#shadow)">
+    <rect width="140" height="100" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="70" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">⚙️</text>
+    <text x="70" y="65" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Vertex Tuning</text>
+    <text x="70" y="82" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Grounding &amp; Prompts</text>
+  </g>
+  
+  <polygon points="380,115 388,120 380,125" fill="#94a3b8"/>
+  
+  <!-- Step 3 -->
+  <g transform="translate(410, 70)" filter="url(#shadow)">
+    <rect width="140" height="100" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="70" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">🤖</text>
+    <text x="70" y="65" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">App Integration</text>
+    <text x="70" y="82" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Deploy APIs &amp; Agents</text>
+  </g>
+  
+  <polygon points="570,115 578,120 570,125" fill="#94a3b8"/>
+  
+  <!-- Step 4 -->
+  <g transform="translate(600, 70)" filter="url(#shadow)">
+    <rect width="160" height="100" rx="8" fill="url(#primary-grad)"/>
+    <text x="80" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">📈</text>
+    <text x="80" y="65" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Business Value</text>
+    <text x="80" y="82" font-family="system-ui, sans-serif" font-size="10" fill="#93c5fd" text-anchor="middle">Efficiency &amp; ROI Realized</text>
+  </g>
+</svg>

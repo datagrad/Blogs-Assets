@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+  <rect width="800" height="240" fill="#f8fafc" rx="16"/>
+  <text x="400" y="35" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">GENERATIVE AI LEADER CERTIFICATION PATHWAY</text>
+  
+  <path d="M 120,130 L 680,130" stroke="#e2e8f0" stroke-width="6" stroke-dasharray="10 10"/>
+  
+  <!-- Step 1 -->
+  <g transform="translate(50, 70)" filter="url(#shadow)">
+    <circle cx="50" cy="60" r="32" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="50" y="66" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#1e40af" text-anchor="middle">1</text>
+    <text x="50" y="115" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">AI Fundamentals</text>
+    <text x="50" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">ML vs. Gen AI</text>
+  </g>
+  
+  <!-- Step 2 -->
+  <g transform="translate(230, 70)" filter="url(#shadow)">
+    <circle cx="50" cy="60" r="32" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+    <text x="50" y="66" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#047857" text-anchor="middle">2</text>
+    <text x="50" y="115" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Google AI Portfolio</text>
+    <text x="50" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Gemini, Vertex AI</text>
+  </g>
+  
+  <!-- Step 3 -->
+  <g transform="translate(410, 70)" filter="url(#shadow)">
+    <circle cx="50" cy="60" r="32" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <text x="50" y="66" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#b45309" text-anchor="middle">3</text>
+    <text x="50" y="115" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Improving Outputs</text>
+    <text x="50" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Prompts &amp; Grounding</text>
+  </g>
+  
+  <!-- Step 4 -->
+  <g transform="translate(590, 70)" filter="url(#shadow)">
+    <circle cx="50" cy="60" r="32" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="50" y="66" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#5b21b6" text-anchor="middle">4</text>
+    <text x="50" y="115" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">Business Strategy</text>
+    <text x="50" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Governance &amp; Trust</text>
+  </g>
+</svg>

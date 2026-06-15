@@ -1,0 +1,31 @@
+graph TD
+    subgraph Infrastructure [LAYER 1: INFRASTRUCTURE]
+        TPUs[Google TPUs]
+        GPUs[NVIDIA GPUs]
+        Network[Google Global Network]
+    end
+
+    subgraph Models [LAYER 2: FOUNDATION MODELS]
+        Gemini[Gemini Multimodal]
+        Gemma[Gemma Open Weights]
+        Imagen[Imagen Text-to-Image]
+        Veo[Veo Text-to-Video]
+    end
+
+    subgraph Platform [LAYER 3: ORCHESTRATION PLATFORM]
+        Vertex[Vertex AI]
+        Garden[Model Garden]
+        Builder[Agent Builder]
+        Tuning[Tuning & Evaluation]
+    end
+
+    subgraph Applications [LAYER 4: APPLICATIONS & AGENTS]
+        GeminiApp[Gemini App]
+        NotebookLM[NotebookLM]
+        AgentAssist[Agent Assist]
+        Workspace[Workspace AI]
+    end
+
+    Infrastructure --> Models
+    Models --> Platform
+    Platform --> Applications

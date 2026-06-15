@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+  <rect width="800" height="350" fill="#f8fafc" rx="16"/>
+  <text x="400" y="35" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#0f172a" text-anchor="middle">ASSISTANT VS. AGENTIC SYSTEMS</text>
+  
+  <!-- Assistant Card -->
+  <g transform="translate(60, 70)" filter="url(#shadow)">
+    <rect width="310" height="240" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <rect width="310" height="50" rx="12" fill="#64748b"/>
+    <text x="155" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">💬 AI ASSISTANT (REACTIVE)</text>
+    
+    <text x="30" y="85" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Operation Mode:</text>
+    <text x="30" y="105" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Waits for manual prompts. Passive loop.</text>
+    
+    <text x="30" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Capabilities:</text>
+    <text x="30" y="160" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Answers questions, drafts text, summarizes.</text>
+    
+    <text x="30" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Integration:</text>
+    <text x="30" y="215" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Isolated. Requires copy-paste inputs.</text>
+  </g>
+  
+  <!-- Agent Card -->
+  <g transform="translate(430, 70)" filter="url(#shadow)">
+    <rect width="310" height="240" rx="12" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+    <rect width="310" height="50" rx="12" fill="#3b82f6"/>
+    <text x="155" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">⚙️ AI AGENT (PROACTIVE)</text>
+    
+    <text x="30" y="85" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Operation Mode:</text>
+    <text x="30" y="105" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Pursues goals autonomously. Active loop.</text>
+    
+    <text x="30" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Capabilities:</text>
+    <text x="30" y="160" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Executes complex task chains, handles tool use.</text>
+    
+    <text x="30" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#334155">Integration:</text>
+    <text x="30" y="215" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">Connected to databases, APIs, and business systems.</text>
+  </g>
+</svg>

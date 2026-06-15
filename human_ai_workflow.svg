@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+  
+  <rect width="850" height="250" fill="#f8fafc" rx="16"/>
+  
+  <text x="425" y="40" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">THE CO-CREATOR WORKFLOW (AUGMENTATION OVER AUTOMATION)</text>
+  
+  <!-- Flow Steps -->
+  <!-- Step 1 -->
+  <g transform="translate(40, 80)" filter="url(#shadow)">
+    <rect width="130" height="90" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="65" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">💡</text>
+    <text x="65" y="60" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">HUMAN</text>
+    <text x="65" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Idea &amp; Intent</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M 180,125 L 205,125" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="205,121 213,125 205,129" fill="#94a3b8"/>
+  
+  <!-- Step 2 -->
+  <g transform="translate(220, 80)" filter="url(#shadow)">
+    <rect width="140" height="90" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="70" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">💬</text>
+    <text x="70" y="60" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">ASK AI</text>
+    <text x="70" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Natural Prompt</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 370,125 L 395,125" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="395,121 403,125 395,129" fill="#94a3b8"/>
+  
+  <!-- Step 3 -->
+  <g transform="translate(410, 60)" filter="url(#shadow)">
+    <rect width="160" height="130" rx="10" fill="url(#blue-grad)"/>
+    <text x="80" y="30" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#93c5fd" text-anchor="middle">AI COLLABORATION</text>
+    <text x="80" y="50" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">• Write &amp; Edit</text>
+    <text x="80" y="70" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">• Summarize</text>
+    <text x="80" y="90" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">• Research</text>
+    <text x="80" y="110" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">• Generate Code</text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M 580,125 L 605,125" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="605,121 613,125 605,129" fill="#94a3b8"/>
+  
+  <!-- Step 4 -->
+  <g transform="translate(620, 80)" filter="url(#shadow)">
+    <rect width="180" height="90" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="90" y="35" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">👁️‍🗨️</text>
+    <text x="90" y="60" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">HUMAN REVIEW</text>
+    <text x="90" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Verification &amp; Curation</text>
+  </g>
+</svg>

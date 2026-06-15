@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <rect width="500" height="300" fill="#f8fafc" rx="16"/>
+  <text x="250" y="35" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">EXAM WEIGHT DISTRIBUTION</text>
+  
+  <circle cx="150" cy="160" r="90" fill="none" stroke="#e2e8f0" stroke-width="30"/>
+  
+  <!-- 4 Quadrants -->
+  <!-- Domain 1: Blue -->
+  <path d="M 150,70 A 90,90 0 0,1 240,160" fill="none" stroke="#3b82f6" stroke-width="30"/>
+  <!-- Domain 2: Green -->
+  <path d="M 240,160 A 90,90 0 0,1 150,250" fill="none" stroke="#10b981" stroke-width="30"/>
+  <!-- Domain 3: Yellow -->
+  <path d="M 150,250 A 90,90 0 0,1 60,160" fill="none" stroke="#f59e0b" stroke-width="30"/>
+  <!-- Domain 4: Purple -->
+  <path d="M 60,160 A 90,90 0 0,1 150,70" fill="none" stroke="#8b5cf6" stroke-width="30"/>
+  
+  <text x="150" y="166" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">25%</text>
+  <text x="150" y="182" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">PER DOMAIN</text>
+  
+  <!-- Legend -->
+  <rect x="290" y="80" width="12" height="12" fill="#3b82f6" rx="2"/>
+  <text x="310" y="91" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#334155">Fundamentals</text>
+  
+  <rect x="290" y="120" width="12" height="12" fill="#10b981" rx="2"/>
+  <text x="310" y="131" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#334155">Google Offerings</text>
+  
+  <rect x="290" y="160" width="12" height="12" fill="#f59e0b" rx="2"/>
+  <text x="310" y="171" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#334155">Improvements</text>
+  
+  <rect x="290" y="200" width="12" height="12" fill="#8b5cf6" rx="2"/>
+  <text x="310" y="211" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#334155">Business Strategy</text>
+</svg>

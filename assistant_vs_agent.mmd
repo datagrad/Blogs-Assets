@@ -1,0 +1,12 @@
+graph TD
+    subgraph Assistant [AI Assistant - Reactive]
+        A[User Prompts] --> B[Assistant Answers]
+        B --> C[User Manual Actions]
+    end
+
+    subgraph Agent [AI Agent - Proactive]
+        D[User Sets Goal] --> E[Agent Formulates Plan]
+        E --> F[Agent Calls Tools & APIs]
+        F --> G[Agent Evaluates & Acts]
+        G --> H[Goal Accomplished]
+    end

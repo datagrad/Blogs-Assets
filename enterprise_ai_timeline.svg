@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <rect width="800" height="200" fill="#f8fafc" rx="16"/>
+  <text x="400" y="35" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">THE ENTERPRISE AI ROADMAP</text>
+  
+  <line x1="100" y1="110" x2="700" y2="110" stroke="#cbd5e1" stroke-width="4"/>
+  
+  <!-- Step 1: 2023 -->
+  <circle cx="150" cy="110" r="12" fill="#ef4444"/>
+  <text x="150" y="90" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">2023</text>
+  <text x="150" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Experimentation</text>
+  <text x="150" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Chatbots &amp; play</text>
+  
+  <!-- Step 2: 2024 -->
+  <circle cx="310" cy="110" r="12" fill="#f59e0b"/>
+  <text x="310" y="90" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">2024</text>
+  <text x="310" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Pilots &amp; Proofs</text>
+  <text x="310" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Vertex AI sandboxes</text>
+  
+  <!-- Step 3: 2025 -->
+  <circle cx="480" cy="110" r="12" fill="#3b82f6"/>
+  <text x="480" y="90" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">2025</text>
+  <text x="480" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">Integration</text>
+  <text x="480" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Database &amp; API workflows</text>
+  
+  <!-- Step 4: 2026 -->
+  <circle cx="650" cy="110" r="12" fill="#10b981"/>
+  <text x="650" y="90" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="middle">2026+</text>
+  <text x="650" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">AI-Native Enterprise</text>
+  <text x="650" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Autonomous agents scale</text>
+</svg>
